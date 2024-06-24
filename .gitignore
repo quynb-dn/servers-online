@@ -8,3 +8,4 @@
 !.env.exmample
 .env
 .env.*
+!.env.example
