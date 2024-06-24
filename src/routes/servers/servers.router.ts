@@ -1,9 +1,9 @@
-import express from "express";
+import express from 'express';
 
-import { findServers } from "./servers.controller";
+import {findServers} from './servers.controller';
 
-const leadsRouter = express.Router();
+const serversRouter = express.Router();
 
-leadsRouter.get("/", findServers);
+serversRouter.get('/', findServers);
 
-export { leadsRouter };
+export {serversRouter};

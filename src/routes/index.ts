@@ -1,9 +1,9 @@
-import { Express } from "express";
+import {Express} from 'express';
 
-import { leadsRouter } from "./servers/servers.router";
+import {serversRouter} from './servers/servers.router';
 
 function routes(app: Express) {
-  app.use("/api/servers", leadsRouter);
+  app.use('/api/servers', serversRouter);
 }
 
-export { routes };
+export {routes};
